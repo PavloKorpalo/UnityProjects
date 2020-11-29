@@ -199,7 +199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &709107009238899640
 Transform:
   m_ObjectHideFlags: 0
@@ -226,7 +226,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 0.27
+  m_Intensity: 2.04
   m_Range: 2.39
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -291,7 +291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8211360309874311054
 Transform:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6275861, g: 1, b: 0, a: 1}
-  m_Intensity: 0.27
+  m_Intensity: 1.81
   m_Range: 2.39
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -377,13 +377,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4606196124080489313}
   - component: {fileID: 783987180305905356}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DetectionCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4606196124080489313
 Transform:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7361025656658230291
 Transform:
   m_ObjectHideFlags: 0
@@ -454,7 +454,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.95129585, g: 1, b: 0, a: 1}
-  m_Intensity: 0.27
+  m_Intensity: 1.59
   m_Range: 2.39
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208

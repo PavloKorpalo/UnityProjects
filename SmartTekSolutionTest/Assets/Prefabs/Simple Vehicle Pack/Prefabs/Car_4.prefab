@@ -529,8 +529,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _path: {fileID: 0}
   _maxSteerAngle: 45
+  _maxBrakeTorque: 0
   _frontLeftWheel: {fileID: 8512781464053297897}
   _frontRightWheel: {fileID: 1679358562621101796}
+  _rearLeftWheel: {fileID: 0}
+  _rearRightWheel: {fileID: 0}
+  _isBraking: 0
+  _sensorLenght: 6
+  _frontSensorPosition: 1.15
 --- !u!1 &85277303785513750
 GameObject:
   m_ObjectHideFlags: 0

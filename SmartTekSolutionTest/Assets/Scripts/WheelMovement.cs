@@ -9,7 +9,7 @@ public class WheelMovement : MonoBehaviour
     private Vector3 _wheelPosition = new Vector3();
     private Quaternion _wheelRotation = new Quaternion();
 
-    // Update is called once per frame
+
     void Update()
     {
         _targetWheel.GetWorldPose(out _wheelPosition, out _wheelRotation);
