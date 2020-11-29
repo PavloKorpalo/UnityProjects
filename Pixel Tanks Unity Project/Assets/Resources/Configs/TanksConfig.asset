@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ddc463e5a27d54db63bd82ddacdb64, type: 3}
+  m_Name: TanksConfig
+  m_EditorClassIdentifier: 
+  Tanks:
+  - Name: Medium Tank
+    MovementSpeed: 20
+    RotationSpeed: 100
+    BulletSpeed: 60
+    DelayTime: 1
+    Tower: 0
+    HealthPoint: 100
+    Damage: 20
+    Bullet: {fileID: 5030027426438857096, guid: 128aed44694043d49889dc5dcf3af89b,
+      type: 3}
+    AllyTankPrefab: {fileID: 8451076650381035247, guid: e2c7353416328fe41af9efcf2f8ccb36,
+      type: 3}
+    EnemyTankPrefab: {fileID: 6129166420161874658, guid: 3728a0d8c2d1d7146b09fbee4869a433,
+      type: 3}
+  - Name: Artillery Tank
+    MovementSpeed: 10
+    RotationSpeed: 75
+    BulletSpeed: 30
+    DelayTime: 3
+    Tower: 2
+    HealthPoint: 75
+    Damage: 30
+    Bullet: {fileID: 5030027426438857096, guid: 128aed44694043d49889dc5dcf3af89b,
+      type: 3}
+    AllyTankPrefab: {fileID: 6176562869007657167, guid: 2c1fc03599a588e4bbacea297e507c72,
+      type: 3}
+    EnemyTankPrefab: {fileID: 3681930868467042589, guid: 77de2eff1de4caa479d85721e3e203fb,
+      type: 3}
+  - Name: Light Tank
+    MovementSpeed: 30
+    RotationSpeed: 125
+    BulletSpeed: 100
+    DelayTime: 0.1
+    Tower: 1
+    HealthPoint: 75
+    Damage: 2
+    Bullet: {fileID: 5030027426438857096, guid: 128aed44694043d49889dc5dcf3af89b,
+      type: 3}
+    AllyTankPrefab: {fileID: 3281602307487426202, guid: bbdcf382fe650da49bc9c72dcd088d5d,
+      type: 3}
+    EnemyTankPrefab: {fileID: 3881449576370493446, guid: f4d7773279c9d324785646cb73d59d54,
+      type: 3}
